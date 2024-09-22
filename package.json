@@ -1,23 +1,19 @@
 {
-  "name": "telegram-greeting-bot",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "A simple Telegram bot that greets users when they use the /start command",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "telegram",
-    "bot",
-    "nodejs"
-  ],
-  "author": "Your Name",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "@types/node": "^18.0.6",
+    "mongoose": "^8.4.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "request": "^2.88.2"
   }
 }
